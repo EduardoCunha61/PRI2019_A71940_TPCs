@@ -1,0 +1,11 @@
+Ficha nº3 exercício 5
+
+Alínea a) //entrada[starts-with(./telefone,'253')]
+
+Alínea b) //entrada[not(starts-with(./telefone,'253'))]
+
+Alínea c) //entrada[contains(./nome,'José') | contains(./nome,'Maria') ]
+
+Alínea d) //grupo/entrada/@id
+
+Alínea e) //entrada/@id[not (../@tipo = "pessoa")]

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE precord SYSTEM "file:/C:/Users/Edua/Desktop/PRI_2020/TPC2/tpc2.dtd">
+    <precord>
+        <header>
+            <key_name>TPC 4</key_name>
+            <title>Project Record TPC4</title>
+            <subtitulo>TPC4</subtitulo>
+            <bdate>04/01/2020</bdate>
+            <endate>04/01/2020</endate>
+            <supervisor>
+                <links href="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</links>
+            </supervisor>
+        </header>
+        <workteam>
+            <member>
+                <aluno>Eduardo de Lima Cunha</aluno>
+                <numero>a71940</numero>
+                <email>a71940@alunos.uminho.pt</email>
+            </member>
+        </workteam>
+    <abstract>
+        <p>O Node.js é uma plataforma que permite a construção de aplicações WEB de maneira escalável e de baixo consumo de recursos. Através da sua interpretação de JavaScript é possível a criação de servidores que conseguem responder a milhares de pedidos/eventos em tempo real utilizando uma unica maquina fisica.
+        </p>
+        <p>
+            O objetivo deste projecto, consiste na criação de um servidor em Node.js que recebe pedidos para abertura de pequenos documentos XML e responde com a transformação de esses ficheiros em HTML utilizando uma stylesheet XSLT denominada "doc2html.xsl". Como ponto de entrada, temos um grande ficheiro em XML que contêm toda a informação para este pequeno projecto. A partir desse ficheiro e utilizando outra stylesheet em XSL dividimos esse documento em pequenos ficheiros "doc.xml". Depois, a cada caminho disponibilizado pelo utilizador, o servidor irá responder com o ficheiro correspondente a esse caminho.
+        </p>
+        <p>
+            Neste Project Record, ao abrirmos o servidor, basta simplesmente introduzir o número do documento pretendido depois do caracter especial "/" e o servidor através do ficheiro "doc2html.xsl" envia o documento em xml pretendido e após a transformação utilizando a stylesheet, ele irá enviar ao utilizador a página html correspondente.
+        </p>
+    </abstract>
+    <deliverables>
+        <links href="project.dtd">DTD do project record</links>
+        <links href="project.xml">XML do project record</links>
+        <links href="project.html">HTML do project record</links>
+        <links href="project.xslt">XSLT do project record</links>
+        <deliverable path="servidor.js">Servidor JS</deliverable>
+        <deliverable path="doc2html.xsl">Documento para HTML(doc2html.xsl)</deliverable>
+    </deliverables>
+</pr>

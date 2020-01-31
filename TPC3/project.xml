@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE precord SYSTEM "file:/C:/Users/Edua/Desktop/PRI_2020/TPC2/tpc2.dtd">
+    <precord>
+        <header>
+            <key_name>TPC 3</key_name>
+            <title>Project Record TPC3</title>
+            <subtitulo>TPC3</subtitulo>
+            <bdate>02/01/2020</bdate>
+            <endate>02/01/2020</endate>
+            <supervisor>
+                <links href="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</links>
+            </supervisor>
+        </header>
+        <workteam>
+            <member>
+                <aluno>Eduardo de Lima Cunha</aluno>
+                <numero>a71940</numero>
+                <email>a71940@alunos.uminho.pt</email>
+            </member>
+        </workteam>
+        <abstract>
+            <p>
+                O XSL é uma linguagem de marcação em XML utilizada para criar ficheiros XSL que 
+                definem como os ficheiros XML serão apresentados pelo browser ou aplicativos que o suportam.
+                Esta linguagem, utilizada o XPATH como forma de acessar ou referir partes de um documento XML.
+            </p>
+            <p>
+                A partir de um documento de entrada e utilizando as definições de um ficheiro XSLT, é possivel mudar a representação
+                nesse ficheiro utilizando outros estilos como por exemplo HTML. Estas transformações, consistem na travessia
+                de todos os nodos listados e a cada nodo percorrido, é aplicado uma regra. Depois de formar todas as regras, é gerado
+                o ficheiro com a representação definida.
+            </p>
+            <p>
+                Neste Project Record, é necessário a criação de um ficheiro HTML com o nome Project Record, gerado
+                a partir de uma stylesheet XSLT e tem como documento de entrada, o ficheiro em XML gerado pelo template DTD
+                desenvolvido na aula.
+                A seguir, utilizando o mesmo processo anterior, é realizado o exercicio da geração de um website que contenha
+                todos os arqueossitios fornecidos por um ficheiro XML.
+            </p>
+        </abstract>
+        <deliverables>
+            <links href="project.dtd">DTD do project record</links>
+            <links href="project.xml">XML do project record</links>
+            <links href="project.html">HTML do project record</links>
+            <links href="project.xslt">XSLT do project record)</links>
+            <deliverable path="arqueo.xslt">Arquessitios (XSLT)</deliverable>
+            <deliverable path="arqueo.html">Website Arqueossitios</deliverable>
+        </deliverables>
+    </pr>

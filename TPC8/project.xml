@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE precord SYSTEM "file:/C:/Users/Edua/Desktop/PRI_2020/TPC2/tpc2.dtd">
+    <precord>
+        <header>
+            <key_name>TPC 8</key_name>
+            <title>Project Record TPC8</title>
+            <subtitulo>TPC8</subtitulo>
+            <bdate>12/01/2020</bdate>
+            <endate>12/01/2020</endate>
+            <supervisor>
+                <links href="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</links>
+            </supervisor>
+        </header>
+        <workteam>
+            <member>
+                <aluno>Eduardo de Lima Cunha</aluno>
+                <numero>a71940</numero>
+                <email>a71940@alunos.uminho.pt</email>
+            </member>
+        </workteam>
+        <abstract>
+            <p>O Express.js, é uma framework para node que nos permite criar aplicações de forma rápida, fléxivel e eficaz.
+                A partir do express, temos acesso a várias bibliotecas e funcionalidades que tornam todo o processo de uma criação de uma aplicação muito minimalista.
+                
+            </p>
+            <p> Os mecanismos fornecidos por esta framework consistem em definir configurações comuns numa aplicação web como a porta a ser usada,
+                a localização dos modelos, as renderizações através de ficheiros na pasta "views", etc...
+                Apesar de o express parecer complexo, a sua boa documentação e a sua resolução de problemas, permitem aos developers uma rápida maneira de desenvolver aplicações web.
+            </p>
+            <p>
+                Estes projecto, consiste na criação de um Gestor de Alunos ao qual permite listar todos os alunos com a sua respetiva lista de notas.
+                Para além de listar, também deve permitir ao utilizador, adicionar alunos, adicionar notas e assim como eliminar alunos e eliminar notas através do seu indicador.
+                Para iniciar o servidor, basta correr o comando "npm start" após as dependencias terem sido todas
+            </p>
+        </abstract>
+        <deliverables>
+            <links href="project.dtd">DTD do project record</links>
+            <links href="project.xml">XML do project record</links>
+            <links href="project.html">HTML do project record</links>
+            <links href="project.xslt">XSLT do project record</links>
+        </deliverables>
+</pr>

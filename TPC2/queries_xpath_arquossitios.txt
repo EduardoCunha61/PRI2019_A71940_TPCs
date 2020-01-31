@@ -1,0 +1,7 @@
+Ficha nº3 exercício 6
+
+Alínea a) //ARQELEM/IDENTI[../CONCEL[text()=" Amares "]]
+
+Alínea b) distinct-values(//CONCEL[normalize-space(text())])
+
+Alínea c) //DESCRI[normalize-space(../CONCEL[text()=" Montalegre "])]

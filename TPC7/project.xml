@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE precord SYSTEM "file:/C:/Users/Edua/Desktop/PRI_2020/TPC2/tpc2.dtd">
+    <precord>
+        <header>
+            <key_name>TPC 7</key_name>
+            <title>Project Record TPC7</title>
+            <subtitulo>TPC7</subtitulo>
+            <bdate>08/01/2020</bdate>
+            <endate>08/01/2020</endate>
+            <supervisor>
+                <links href="http://www.di.uminho.pt/~jcr">José Carlos Ramalho</links>
+            </supervisor>
+        </header>
+        <workteam>
+            <member>
+                <aluno>Eduardo de Lima Cunha</aluno>
+                <numero>a71940</numero>
+                <email>a71940@alunos.uminho.pt</email>
+            </member>
+        </workteam>
+        <abstract>
+            <p>
+                Neste pequeno projeto, iremos proceder a criação de um servidor em NODEjs utilizando a framework Express e como base de dados o MongoDB.
+                Este pequeno servidor tem como objetivo fornecer uma pequena API de dados para que possamos fazer pedidos ao servidor e ele nos responder
+                com a informação pretendida.
+            </p>
+            <p>
+                O dataset usado será o obras.xml que depois é importado para a base de dados mongo para preencher a coleção de obras. Após este procedimento,
+                iremos proceder a definição das rotas e dos controladores. As rotas servem para responder a pedidos feitos ao servidor que depois chamam o controlador
+                e ele devolve a informação que nos pedimos.
+                Para além disso, é preciso definir um modelo que terá como referencia a constituição de uma obra na base de dados Mongo.
+            </p>
+
+        </abstract>
+        <deliverables>
+            <links href="project.dtd">DTD do project record</links>
+            <links href="project.xml">XML do project record</links>
+            <links href="project.html">HTML do project record</links>
+            <links href="project.xslt">XSLT do project record</links>
+        </deliverables>
+    </pr>
